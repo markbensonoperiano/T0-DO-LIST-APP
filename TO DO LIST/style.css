@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&family=Jomhuria&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.book {
+    height: 40px;
+}
+
+h1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.todo {
+    text-align: center;
+    padding-top: 30px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    flex: 1;
+    height: 45px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.plus {
+    position: absolute;
+    left: 1240px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(0, 141, 223);
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 10px #1a1a1a;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between task text and delete button */
+    align-items: center; /* Center items vertically */
+}
+
+.deleteTask {
+    background: url(images/delete.png) no-repeat center center;
+    background-size: 30px 30px; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left: 500px;
+    position: relative;
+}
+.edit{
+    background: url(images/pen.png) no-repeat center center;
+    background-size: 30px 30px; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;    
+    height: 30px;
+    position: relative;
+}
